@@ -1,6 +1,6 @@
 const express = require("express"),
     app = express();
-    require('dotenv/config');
+    require('./dotenv/config');
 
 
 const { json } = require("express");
