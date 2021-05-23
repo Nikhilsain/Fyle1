@@ -1,12 +1,12 @@
 const express = require("express"),
     app = express();
-    require('./dotenv/config');
+    
 
 
 const { json } = require("express");
  //const pool = require("./db");
 const Pool = require("pg").Pool;
-if (process.env.NODE_ENV !== 'production') require('dotenv').config()
+
 
 const pool = new Pool({
     user: process.env.POSTGRESQL_ADDON_USER,
