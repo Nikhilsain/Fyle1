@@ -58,7 +58,6 @@ const { json } = require("express");
 
     }
 })
-
-    app.listen(5000,function(){
-        console.log("this server starts");
-    });
+app.listen(process.env.PORT || 3000,process.env.IP,function(){
+    console.log("this server strats");
+})
