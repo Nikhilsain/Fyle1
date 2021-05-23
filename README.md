@@ -1,6 +1,6 @@
-# [**Fyle Full Stack Coding Challenge**](https://www.notion.so/Fyle-Full-Stack-Coding-Challenge-db30c5cb91d54de1b330c16f22fc49f0) [Part 1]
+# [**Fyle Full Stack Coding Challenge**] [Part 1]
 
-## Live Demo [Link](https://flye-backend-avikant.herokuapp.com/)
+## Live Demo [Link](https://fyle1ans.herokuapp.com/api/branches?q=Bangalore&limit=4&offset=0)
 
 ## API usage
 **1) Autocomplete API**
